@@ -11,7 +11,6 @@
   inputs.src-ndb-v0_19_3.ref   = "refs/tags/v0.19.3";
   inputs.src-ndb-v0_19_3.owner = "xzfc";
   inputs.src-ndb-v0_19_3.repo  = "ndb.nim";
-  inputs.src-ndb-v0_19_3.dir   = "";
   inputs.src-ndb-v0_19_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
