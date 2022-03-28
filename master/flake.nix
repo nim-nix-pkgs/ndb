@@ -11,6 +11,7 @@
   inputs.src-ndb-master.ref   = "refs/heads/master";
   inputs.src-ndb-master.owner = "xzfc";
   inputs.src-ndb-master.repo  = "ndb.nim";
+  inputs.src-ndb-master.dir   = "";
   inputs.src-ndb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
